@@ -9,6 +9,11 @@
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
 }
+
+.text-light-gray{
+    color: #727272;
+}
+
 .btn-primary{
 border-radius: 8px;
 background: orange;
@@ -33,7 +38,7 @@ nav{
 
 }
 
-.nav-title{
+.section-title{
     font-size: 3rem;
     font-weight: 700;
     color: #131313;
@@ -71,32 +76,12 @@ nav li a{
     width: 100%;
     margin: 20px;
 }
-/* responsive media queary */
-/* mobile devise */
-@media screen and (max-width: 576px;){
-    header{
-    padding: 20px;
-}
-nav{
 
-    flex-direction: column;
-}}
-/* tablet or mobile devise */
-
-
-@media screen and(min-width:576px) and (max-width:960px){
-padding: 50px
-
-    nav{
- flex-direction: column;
-}
-
-   }
 
    /* main section */
    main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
    }
 
    /* tems style */
@@ -118,7 +103,6 @@ padding: 50px
     font-size: 2.8rem;
    }
    .tiems-title .quick-list{
-    color: #727272;
     font-weight: 500;
 
    }
@@ -126,3 +110,29 @@ padding: 50px
     color: #ff900e;
     font-weight: 700;
    }
+
+
+
+
+   /* responsive media queary */
+/* mobile devise */
+@media screen and (max-width: 576px;){
+    header{
+    padding: 20px;
+}
+nav{
+
+    flex-direction: column;
+}}
+/* tablet or mobile devise */
+
+
+@media screen and(min-width:576px) and (max-width:960px){
+padding: 50px
+
+    nav .teams-container{
+ flex-direction: column;
+}
+
+   }
+   
