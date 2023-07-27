@@ -10,7 +10,13 @@
 font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-
+border-radius: 8px;
+background: orange;
+padding: 20px 25px;
+color: #fff;
+font-size: 1.25rem;
+cursor: pointer;
+border: 0;
 }
 
 
@@ -61,3 +67,28 @@ nav li a{
 .basser-description{
     color: #727272;
 }
+.banner img{
+    width: 100%;
+    margin: 20px;
+}
+/* responsive media queary */
+/* mobile devise */
+@media screen and (max-width: 576px;){
+    header{
+    padding: 20px;
+}
+nav{
+
+    flex-direction: column;
+}}
+/* tablet or mobile devise */
+
+
+@media screen and(min-width:576px) and (max-width:960px){
+padding: 50px
+
+    nav{
+ flex-direction: column;
+}
+
+   }
