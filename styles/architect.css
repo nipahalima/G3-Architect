@@ -111,6 +111,40 @@ nav li a{
     font-weight: 700;
    }
 
+  
+/*  features section style */
+.features{
+    display: flex;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+
+.features .section-title{
+    border-left: 5px  solid #ff900e;
+    padding-left: 20px;
+}
+
+.feature-content .card{
+    padding: 30px;
+ margin-bottom: 20px;    
+    border-radius: 8px;
+background: #eeeaea;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+
+.tan-years-badgs{
+    border-radius: 8px;
+    background: #ff900e;
+    color: #fff;
+    width: 342px;
+    padding: 40px;
+}
+.an-years-badgs h2{
+    font-size: 4rem;
+}
 
 /* faced section */
 
